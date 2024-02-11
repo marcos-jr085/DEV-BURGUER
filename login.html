@@ -6,42 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela de login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="projeto.js">
+    <link rel="stylesheet" href="projeto.html">
 </head>
 <body>
-    
-<div class="login-container">
-    <div class="login-header">
-      <h2>Tela de Login</h2>
-    </div>
-    <div class="login-form">
-      <div class="form-group">
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" placeholder="Digite seu usuário">
-      </div>
-      <div class="form-group">
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" placeholder="Digite sua senha">
-      </div>
-      <div class="form-group">
-        <button type="button" onclick="validateLogin()">Entrar</button>
-      </div>
-      <div class="error-message" id="error-message"></div>
-    </div>
-  </div>
 
-  <script>
-    function validateLogin() {
-      var username = document.getElementById('username').value;
-      var password = document.getElementById('password').value;
+ <form> 
 
-      if (username === '' || password === '') {
-        document.getElementById('error-message').innerText = 'Por favor, preencha todos os campos.';
-      } else {
-        // Aqui você pode adicionar a lógica de validação do lado do cliente ou enviar para o servidor.
-        // Neste exemplo, apenas limpamos a mensagem de erro.
-        document.getElementById('error-message').innerText = '';
-      }
-    }
-  </script>
+<h3>login</h3>
+<input type="text" placeholder="login" id="login">
+<input type="password" placeholder="senha" id="senha">
+<input type="submit" onclick="">
+
+ </form>
+
 
   </body>
