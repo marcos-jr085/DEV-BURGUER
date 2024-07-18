@@ -1,6 +1,37 @@
 body{
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
+/*A parte direita esta com a coloração preta e começo do cabeçalho*/
+.imgcabecalho{
+    background-color: black;
+}
+
+h1{
+
+    
+    margin: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform: uppercase;
+    color: rgb(243, 240, 240);
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.textPrincipal{
+    padding: 2px 250px 2px 250px;
+
+
+}
+
+/*começo do corpo do projeto*/
+
+
+
+
+
 
