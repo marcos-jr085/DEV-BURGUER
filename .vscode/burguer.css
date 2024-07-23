@@ -31,6 +31,90 @@ h1{
 /*começo do corpo do projeto*/
 
 
+.conteiner{
+    
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 82px;
+}
+
+
+.textoDaCaixa1{
+    position: relative;
+    right: 0px;
+
+}
+
+.textoDaCaixa2{
+    position: relative;
+    left: 5px;
+    
+}
+
+.textoDaCaixa3{
+    position: relative;
+    left: 5px;
+}
+
+
+.textoDaCaixa01{
+    position: absolute;
+    left: 130px;
+
+}
+
+.textoDaCaixa02{
+    position: absolute;
+    left: 130px;
+}
+
+.textoDaCaixa03{
+    position: absolute;
+    left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
