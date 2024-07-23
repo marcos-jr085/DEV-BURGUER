@@ -75,13 +75,164 @@ h1{
 }
 
 
+p.pedido1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+p.pedido1:hover{
+    background-color: burlywood;
+    transform: scale(1.1);
+}
 
 
 
 
+p.pedido2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+p.pedido2:hover{
+    background-color: burlywood;
+    transform: scale(1.1);
+}
 
 
 
+
+p.pedido3{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+p.pedido3:hover{
+    background-color: burlywood;
+    transform: scale(1.1);
+
+}
+
+.MensagemPeloWhatsApp{
+    
+    margin: 10px 50px 10px 50px;
+    background-color: burlywood;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: 1.5s;
+}
+.MensagemPeloWhatsApp:hover{
+    background-color: rgb(107, 74, 30);
+    transform: scale(1.1);
+
+}
+
+.TextoPrincipalDaPG{
+    display: block;
+    margin-left: 100px;
+    
+
+}
+p{
+    display: flex;
+    text-align: left;
+    text-transform:lowercase ;
+    margin-left: 170px;
+    margin-right: 300px;
+    
+}
+
+
+.sobre{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 10px 5px 10px 5px;
+}
+
+h4{
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* final do corpo principal */
+
+/*começo do rodapé*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444;
+    font-size: 0.8em;
+}
 
 
 
